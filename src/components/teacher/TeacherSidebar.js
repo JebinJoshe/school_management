@@ -1,16 +1,17 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 
-const AdminSidebar = ({navic, page}) => {
+const TeacherSidebar = ({navic, page}) => {
 
   const navigate = useNavigate();
 
-    const arryay = ['🏠 Dashboard', '💳 Payment Info', '📝 Registration', '📚 Courses', '📊 Result', '🔔 Notification', '🗓 Schedule', '🔒 Logout' ]
+    const arryay = ['🏠 Dashboard', '📝 Students', '📚 Courses', '📊 Result', '🔔 Notification', '🔒 Logout' ]
   
+
     return (
     <div className="mt-1 h-screen w-64 bg-violet-500 text-white">
-      <div className="sidebar-header text-center p-4 text-2xl font-bold border-b-2 border-gray-600">
-        🎓 Admin Panel
+      <div className="sidebar-header text-center p-4 text-2xl font-semibold border-b-2 border-gray-600">
+        🎓 Teacher Panel
       </div>
       <ul className="sidebar-menu mt-6 space-y-4">
       {arryay.map((item, index) => (
@@ -33,4 +34,4 @@ const AdminSidebar = ({navic, page}) => {
   );
 };
 
-export default AdminSidebar;
+export default TeacherSidebar;

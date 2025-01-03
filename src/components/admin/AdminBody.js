@@ -24,7 +24,7 @@ function AdminBody({page}) {
     const Component = obj[page] 
 
   return (
-    <div className='border w-full bg-gray-100'>
+    <div className='w-full mt-1 bg-gray-100'>
         <Component />
     </div>
   )
