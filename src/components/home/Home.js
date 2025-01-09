@@ -94,9 +94,9 @@ function Home() {
           </div>
 
           {/* Announcement Section */}
-          <div className="announcement-section flex-none w-1/3 bg-blue-900 text-white rounded-lg p-5 h-64">
+          <div className="announcement-section flex-none w-1/3 bg-blue-900 text-white rounded-lg p-5 h-72">
             <h3 className="text-xl font-semibold pb-4">Announcements</h3>
-            <div className="announcement-box overflow-hidden">
+            <div className="announcement-box overflow-hidden h-56 ">
               <ul className="announcement-list space-y-3 animate-scroll">
                 <li>
                   <Link to="/admissions" className="hover:text-blue-300">
