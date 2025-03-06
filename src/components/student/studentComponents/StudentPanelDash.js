@@ -28,7 +28,6 @@ const StudentPanelDash = () => {
     return () => clearInterval(timer);
   }, []);
 
-  // Hardcoded card data
   useEffect(() => {
     const cardData = [
       { id: 1, value: " ", title: "Messages", color: "bg-red-500", icon: "🔔" },
