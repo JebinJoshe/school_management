@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import StudentSidebar from './StudentSidebar'
 import StudentBody from './StudentBody'
+// added some logic here
 
 function StudentDahboard() {
 
@@ -18,4 +19,4 @@ function StudentDahboard() {
   )
 }
 
-export default StudentDahboard
+export default StudentDahboard;
