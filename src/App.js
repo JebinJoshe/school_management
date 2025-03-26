@@ -5,7 +5,7 @@ import EnquiryForm from './components/enquiry/EnquiryForm';
 import Login from './components/login/Login';
 import AdminDashboard from './components/admin/AdminDashboard';
 import TeacherDashboard from './components/teacher/TeacherDashboard';
-import StudentDahboard from './components/student/StudentDahboard';
+import StudentDahboard from './components/student/StudentDahboard'; //this is StudentDahboard   
 
 
 function App() {
